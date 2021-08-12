@@ -1,5 +1,7 @@
 package com.care.game1;
 
+import java.util.Scanner;
+
 public class Game01 {
 	public void display() {
 		System.out.println("======= ∞‘¿”1 ======");
