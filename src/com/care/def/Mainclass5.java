@@ -1,10 +1,18 @@
 package com.care.def;
 
-import java.util.Scanner;
+import java.util.*;
 
+class TV_koogeonhwe {
+
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+}
 public class Mainclass5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		TV_koogeonhwe tv_koogeonhwe = new TV_koogeonhwe();
 		int num;
 		System.out.println("---가전제품---");
 		while(true) {
@@ -16,6 +24,7 @@ public class Mainclass5 {
 			num = sc.nextInt();
 			switch(num) {
 			case 1:
+				tv_koogeonhwe.display();
 				System.out.println("냉장고");
 				break;
 			case 2:
@@ -28,7 +37,6 @@ public class Mainclass5 {
 				System.out.println("건조기");
 				break;
 			}
-			
 	}
 }
 }

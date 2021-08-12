@@ -3,7 +3,7 @@ package com.care.def;
 import java.util.Scanner;
 
 public class Tv0555 {
-	public static void main(String[] args) {
+	public void display() {
 		
 	System.out.println("³ÃÀå°í ±â´É");
 	Scanner sc = new Scanner(System.in);
@@ -13,10 +13,10 @@ public class Tv0555 {
 	if(num==1) tempUp();
 	else tempDown();
 }
-private static void tempUp() {
+private void tempUp() {
 	System.out.println("¿Âµµ ¿Ã¸²");
 }
-private static void tempDown() {
+private void tempDown() {
 	System.out.println("¿Âµµ ³·Ãã");
 }
 }
